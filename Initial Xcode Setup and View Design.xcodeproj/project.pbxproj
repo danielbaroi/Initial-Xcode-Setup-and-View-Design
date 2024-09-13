@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D53831C72C92295C009FAE54 /* Initial_Xcode_Setup_and_View_DesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53831C62C92295C009FAE54 /* Initial_Xcode_Setup_and_View_DesignApp.swift */; };
 		D53831C92C92295C009FAE54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53831C82C92295C009FAE54 /* ContentView.swift */; };
 		D53831CB2C92295D009FAE54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53831CA2C92295D009FAE54 /* Assets.xcassets */; };
 		D53831CE2C92295D009FAE54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53831CD2C92295D009FAE54 /* Preview Assets.xcassets */; };
@@ -15,6 +14,7 @@
 		D53831E22C92295D009FAE54 /* Initial_Xcode_Setup_and_View_DesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53831E12C92295D009FAE54 /* Initial_Xcode_Setup_and_View_DesignUITests.swift */; };
 		D53831E42C92295D009FAE54 /* Initial_Xcode_Setup_and_View_DesignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53831E32C92295D009FAE54 /* Initial_Xcode_Setup_and_View_DesignUITestsLaunchTests.swift */; };
 		D53831F62C924AAC009FAE54 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53831F52C924AAC009FAE54 /* MenuView.swift */; };
+		D53831FA2C93AF32009FAE54 /* Initial_Xcode_Setup_and_View_DesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53831F92C93AF32009FAE54 /* Initial_Xcode_Setup_and_View_DesignApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 
 /* Begin PBXFileReference section */
 		D53831C32C92295C009FAE54 /* Initial Xcode Setup and View Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Initial Xcode Setup and View Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D53831C62C92295C009FAE54 /* Initial_Xcode_Setup_and_View_DesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initial_Xcode_Setup_and_View_DesignApp.swift; sourceTree = "<group>"; };
 		D53831C82C92295C009FAE54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D53831CA2C92295D009FAE54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D53831CD2C92295D009FAE54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 		D53831E12C92295D009FAE54 /* Initial_Xcode_Setup_and_View_DesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initial_Xcode_Setup_and_View_DesignUITests.swift; sourceTree = "<group>"; };
 		D53831E32C92295D009FAE54 /* Initial_Xcode_Setup_and_View_DesignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initial_Xcode_Setup_and_View_DesignUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D53831F52C924AAC009FAE54 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		D53831F92C93AF32009FAE54 /* Initial_Xcode_Setup_and_View_DesignApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Initial_Xcode_Setup_and_View_DesignApp.swift; path = ../../../.Trash/Initial_Xcode_Setup_and_View_DesignApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 				D53831F42C9248B9009FAE54 /* ViewModels */,
 				D53831F32C9248B2009FAE54 /* Models */,
 				D53831F22C92482A009FAE54 /* Views */,
-				D53831C62C92295C009FAE54 /* Initial_Xcode_Setup_and_View_DesignApp.swift */,
+				D53831F92C93AF32009FAE54 /* Initial_Xcode_Setup_and_View_DesignApp.swift */,
 				D53831CA2C92295D009FAE54 /* Assets.xcassets */,
 				D53831CC2C92295D009FAE54 /* Preview Content */,
 			);
@@ -285,8 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D53831C92C92295C009FAE54 /* ContentView.swift in Sources */,
+				D53831FA2C93AF32009FAE54 /* Initial_Xcode_Setup_and_View_DesignApp.swift in Sources */,
 				D53831F62C924AAC009FAE54 /* MenuView.swift in Sources */,
-				D53831C72C92295C009FAE54 /* Initial_Xcode_Setup_and_View_DesignApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
