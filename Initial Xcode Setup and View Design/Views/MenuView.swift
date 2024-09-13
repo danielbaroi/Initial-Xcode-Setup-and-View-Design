@@ -71,6 +71,7 @@ struct HomeView: View {
                             if let videoURL = Bundle.main.url(forResource: "EOSC-reel", withExtension: "mp4") {
                                 player = AVPlayer(url: videoURL)
                                 player.play()
+                              
                             }
                         }
                         .animation(.easeInOut, value: boxHeight)
