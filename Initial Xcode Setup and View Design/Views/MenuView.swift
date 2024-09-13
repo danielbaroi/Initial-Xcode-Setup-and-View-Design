@@ -201,7 +201,7 @@ struct OrderView: View {
                            Text("CUSTOMIZE YOUR PERFECT COOKIE!")
                                .font(.system(size: 35, weight: .bold))
                                .multilineTextAlignment(.center)
-                               .frame(maxWidth: .infinity)
+                               .frame(maxWidth: .infinity, alignment: .leading)
                                .padding(.horizontal, 20)
                                .padding(.vertical, 10)
 
@@ -211,15 +211,18 @@ struct OrderView: View {
                            }) {
                                Text("Start Baking")
                                    .font(.system(size: 20, weight: .bold))
-                                   .frame(width: geometry.size.width * 0.8)
+                                   .frame(width: geometry.size.width * 0.8, alignment: .center)
                                    .padding()
                                    .background(Color.black)
                                    .foregroundColor(.white)
                                    .cornerRadius(10)
                            }
+                           .frame(maxWidth: .infinity, alignment: .leading)
                        }
                        .frame(maxWidth: .infinity)
                        .padding(.top, 20)
+                       .padding(.horizontal, 20)
+                       .padding(.vertical, 20)
 
                     // Show Customization Form if toggled
                     if showCustomizationForm {
@@ -227,6 +230,8 @@ struct OrderView: View {
                             Text("Custom Cookie")
                                 .font(.system(size: 25, weight: .bold))
                                 .padding(.top)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .padding()
 
                             // Batter Type Picker
                             VStack(alignment: .leading) {
@@ -234,6 +239,9 @@ struct OrderView: View {
                                     .font(.headline)
                                     .padding(.bottom, 5)
                                     .foregroundColor(.black)
+                                    .frame(maxWidth: .infinity, alignment: .leading)
+                                    .padding()
+                                
 
                                 ForEach(batters, id: \.self) { batter in
                                     Toggle(isOn: Binding(
@@ -260,6 +268,8 @@ struct OrderView: View {
                                     .font(.headline)
                                     .padding(.bottom, 5)
                                     .foregroundColor(.black)
+                                    .frame(maxWidth: .infinity, alignment: .leading)
+                                    .padding()
 
                                 ForEach(mixIns, id: \.self) { mixIn in
                                     Toggle(isOn: Binding(
